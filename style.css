@@ -1,0 +1,73 @@
+@media (max-width: 375px) {
+    .description {
+        background-color: hsl(218, 22%, 67%);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .bg-value {
+        background-color:  hsl(179, 62%, 43%);
+    }
+    body {
+        font-family: 'Karla', sans-serif;
+        background-color: #f7f7f7;
+    }
+}
+
+@media (min-width: 376px) {
+    .description {
+        background-color: rgb(72,190,189);
+        border-right: 1 px solid hsl(218, 22%, 67%);
+        border-bottom-right-radius: 10px;
+    }
+    .bg-value {
+        background-color:  hsl(179, 62%, 43%);
+        border-left: 1px solid hsl(179, 62%, 43%);
+        border-bottom-left-radius: 10px;
+    }
+    body {
+        font-family: 'Karla', sans-serif;
+        background-color: #f7f7f7;
+        padding-top: 150px;
+        margin-top: 5px;
+    }
+}
+
+.main-header .informations {
+    box-shadow: 5px 5px 5px 5px hsl(218, 22%, 67%);
+}
+
+#main-header {
+    background-color: #ffffff;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title {
+    color: hsl(179, 62%, 43%);
+    font-weight: bold;
+}
+
+.subtitle {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+}
+
+.subtitle2 {
+    color: hsl(218, 22%, 67%);
+}
+
+.informations {
+    color: #ffffff;
+}
+
+.value {
+    font-size: 35px;
+}
+
+.botao {
+    background-color: hsl(71, 73%, 54%);
+    color: #ffffff;
+    font-size: 16px;
+}
+
